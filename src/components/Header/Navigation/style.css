@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  max-width: 250px;
+  min-width: 190px;
+  width: 15%;
+}
+
+.navigation__item {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    position: fixed;
+    bottom: 0;
+  }
+}
